@@ -10,25 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+            <activity android:name=".HomeworkActivity" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeworkActivity" />
+
         <activity android:name=".Home1Activity" />
 
         <service
-            android:name=".MediaService"
+            android:name=".MyService2"
             android:enabled="true"
             android:exported="true" />
         <service
             android:name=".MyService"
             android:enabled="true"
             android:exported="true" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
         <service
-            android:name=".MyService2"
+            android:name=".MediaService"
             android:enabled="true"
             android:exported="true"></service>
     </application>
