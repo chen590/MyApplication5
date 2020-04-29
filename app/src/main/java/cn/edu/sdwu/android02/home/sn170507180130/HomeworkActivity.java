@@ -13,6 +13,7 @@ public class HomeworkActivity extends AppCompatActivity {
         setContentView(R.layout.layout_homework);
     }
     public void startHome1(View view){
+
         //界面跳转到作业1
         Intent intent=new Intent(this,Home1Activity.class);
         startActivity(intent);
