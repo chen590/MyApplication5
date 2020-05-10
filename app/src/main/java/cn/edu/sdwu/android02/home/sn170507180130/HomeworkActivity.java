@@ -18,4 +18,17 @@ public class HomeworkActivity extends AppCompatActivity {
         Intent intent=new Intent(this,Home1Activity.class);
         startActivity(intent);
     }
+    //作业2 跳转
+    public void startHome2(View view){
+        //界面跳转
+        Intent intent=new Intent(this,Home2Activity.class);
+        startActivity(intent);
+    }
+    //作业3 跳转
+    public void startHome3(View view){
+        //界面跳转
+        Intent intent=new Intent(this,Home3Activity.class);
+        startActivity(intent);
+    }
+
 }

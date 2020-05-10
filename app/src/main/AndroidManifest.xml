@@ -11,13 +11,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <activity android:name=".HomeworkActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Home1Activity" />
 
         <service
@@ -37,7 +37,10 @@
         <service
             android:name=".MediaService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".Home3Activity"></activity>
     </application>
 
 </manifest>
